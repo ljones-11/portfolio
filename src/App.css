@@ -148,6 +148,7 @@ h1, h2 {
 }
 
 .nav-container {
+  font-family: 'Bebas Neue', sans-serif;
   display:flex;
   width: 93.7%;
   align-items:center;
@@ -172,6 +173,11 @@ h1, h2 {
 a {
   color:#66C4D9;
   text-decoration: none;
+}
+
+.active {
+  color:#f8f8f8;
+  text-decoration: underline;
 }
 
 a:hover {
