@@ -185,9 +185,8 @@ a:hover {
 
 
 footer {
-  position: relative;
-  height: 0;
-  padding-top: 30%; /* 240 divided by 800 and multiplied by 100 */
+  color: #f8f8f8;
+  background-color: #050504;
   text-align: center;
 }
 
@@ -202,7 +201,7 @@ footer {
 
 @media only screen and (max-width:768px) {
   * {
-    font-size: 10px;
+    font-size: 1.5em;
   }
 }
 

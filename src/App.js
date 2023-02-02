@@ -27,7 +27,7 @@ function App() {
             </Routes>
             <Main />
             <SideNav/>
-        {/* <Footer /> */}
+        <Footer />
         
     </>
   );
