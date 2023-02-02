@@ -1,9 +1,13 @@
 import React from 'react'
+import NavBar from './NavBar';
 
 const About = () => {
 
     return (
-        <h1> About Me</h1>
+        <>
+            <NavBar/>
+            <h1> About Me</h1>
+        </>
     )
 }
 

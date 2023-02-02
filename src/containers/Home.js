@@ -1,16 +1,17 @@
 import React, { require } from 'react'
+import NavBar from '../components/NavBar';
 
 const Home = () => {
-
-const gearlogo = require("../gearlogo.png")
     return (
-        <div className='hero-container'>
-            <hero className='hero'>
-                {/* <h1 className='hero-title'>Lee Jones</h1> */}
-                <h1 className='hero-subtitle'>Under Construction</h1>
-                {/* <img src={gearlogo} className='hero-img' /> */}
-            </hero>
-        </div>
+            
+            <section className='hero-container'>
+                <div className='hero-info'>
+                    <NavBar />
+                    <h1>Lee Jones</h1>
+                    <h2>Software Developer</h2>
+                    <a>Download CV</a>
+                </div>
+            </section>
     )
 }
 

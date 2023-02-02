@@ -10,11 +10,10 @@ import Design from './components/Design';
 import Contact from './components/Contact';
 import SideNav from './components/SideNav';
 import { useState } from 'react';
+import Main from './components/Main';
 
 
 function App() {
-
-  const [wid, setWid] = useState();
 
   return (
     <>
@@ -26,6 +25,7 @@ function App() {
                 <Route path='/design' element={<Design />} />
                 <Route path='/contact' element={<Contact />} />
             </Routes>
+            <Main />
             <SideNav/>
         <Footer />
         

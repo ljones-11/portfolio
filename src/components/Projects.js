@@ -1,9 +1,13 @@
 import React from 'react';
+import NavBar from './NavBar';
 
 const Projects = () => {
 
     return (
-        <h1> Projects </h1>
+        <>
+        <NavBar/>
+        <h1>Projects</h1>
+    </>
     )
 }
 

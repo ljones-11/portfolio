@@ -6,12 +6,11 @@ const Header = () => {
 
 
     return (
-        <header>
-            <div className='header-container'>
+        
+            <header className='header-container'>
                 <h1 className='title-h1'></h1>
-                    <NavBar />
-            </div>
-        </header>
+            </header>
+        
     )
 }
 
