@@ -25,32 +25,57 @@ h1 {
 
 
 .hero-info {
+  font-family: 'Bebas Neue', sans-serif;
   margin-left: 8%;
   margin-bottom: 15%;
 }
 
 .hero-info h1 {
-  font-family: 'Playfair Display', sans-serif;
-  font-size: 7em;
-  text-shadow: 4px 3px 2px rgb(40, 40, 40);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 9em;
+  text-shadow: 2px 2px 2px rgb(40, 40, 40);
   margin-bottom: 0;
+  text-decoration: underline;
 }
 
 .hero-info h2 {
-  font-size: 2.5em;
-  
-  margin-top: 0.5em;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  margin-top: 0;
 }
 
 .hero-info > a {
   font-size: 1.5em;
   background: #68caed;
   padding: 0.5em .7em;
-  text-decoration: none;
+  text-decoration:line-through;
   color: #1c1c1c;
   display: inline-block;
-  margin-top: .5em;
+  margin-top: 0;
   border-radius: .4em;
+  transition: all 0.1s ease-out;
+}
+
+.hero-info > a:hover {
+  text-decoration:line-through;
+  color:#1c1c1c;
+  cursor:copy;
+  font-size: 1.6em;
+
+}
+
+main {
+  
+  display:flex;
+  justify-content: center;
+  padding:2em;
+  background-color: #090909;
+}
+main > h1 {
+  font-family: 'Bebas Neue';
+  font-size: 6em ;
+  color: #f8f8f8;
 }
 
 
@@ -151,6 +176,7 @@ a {
 
 a:hover {
   color: #f3f3f3;
+  text-decoration: underline;
 }
 
 

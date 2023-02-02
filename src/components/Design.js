@@ -7,7 +7,6 @@ const Design = () => {
     return (
         <>
         <NavBar/>
-        <h1> Design</h1>
     </>
     )
 }
