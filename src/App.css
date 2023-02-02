@@ -207,7 +207,7 @@ footer {
 
 @media only screen and (max-width:768px) {
   * {
-    font-size: 1.5em;
+    font-size: 10px;
   }
 }
 
