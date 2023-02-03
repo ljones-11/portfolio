@@ -17,7 +17,6 @@ function App() {
 
   return (
     <>
-          <Header />
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/about' element={<About />} />
@@ -25,9 +24,8 @@ function App() {
                 <Route path='/design' element={<Design />} />
                 <Route path='/contact' element={<Contact />} />
             </Routes>
-            <Main />
             <SideNav/>
-        <Footer />
+            <Footer />
         
     </>
   );

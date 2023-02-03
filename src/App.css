@@ -2,8 +2,11 @@ body {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   padding:0;
   margin:0;
-  margin-top:-50px;
+  /* margin-top:-50px; */
   box-sizing: border-box;
+  background-color: #050504;
+}
+html {
   background-color: #050504;
 }
 
@@ -17,6 +20,40 @@ body {
   background-position:top;
 }
 
+.text-container {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2em;
+  width:85%;
+  /* background-color: #f8f8f8; */
+  background-color: rgba(28, 28, 28, 0.6);
+  color: #f8f8f8;
+  padding:.2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: -1em;
+  line-height: 1.2em;
+  border-radius: .3em;
+}
+.text-container > b {
+  text-align: center;
+  font-size:1.1em;
+  color:#68caed;
+}
+.info-container {
+  height:auto;
+}
+
+.info-container > h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 8%;
+}
+
+
+
 h1 {
   margin-top:0;
 }
@@ -27,7 +64,7 @@ h1 {
 .hero-info {
   font-family: 'Bebas Neue', sans-serif;
   margin-left: 8%;
-  margin-bottom: 15%;
+  margin-bottom: 3em;
 }
 
 .hero-info h1 {
@@ -75,14 +112,14 @@ main {
 main > h1 {
   font-family: 'Bebas Neue';
   font-size: 6em ;
-  color: #f8f8f8;
+  color: #efefef;
 }
 
 
 
 
 h1, h2 {
-  color: #f8f8f8;
+  color: #efefef;
   
 }
 
@@ -140,7 +177,7 @@ h1, h2 {
 }
 
 .fa-brands {
-  color: #f3f3f3;
+  color: #efefef;
 }
 
 .fa-brands:hover {
@@ -176,12 +213,12 @@ a {
 }
 
 .active {
-  color:#f8f8f8;
+  color:#efefef;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #f3f3f3;
+  color: #efefef;
   text-decoration: underline;
 }
 
@@ -191,18 +228,49 @@ a:hover {
 
 
 footer {
-  color: #f8f8f8;
+  color: #68caed;
   background-color: #050504;
   text-align: center;
+  height:2em;
+  position:static;
+  bottom:0;
+  width: 100%;
 }
 
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
+.row {
+  display:flex;
+  justify-content: space-between;
+  width: 90%;
+  padding-bottom: 1em;
+}
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: auto;
+  padding-right: 1em;;
+  padding-top: 2.5em;
+}
+
+/* Style the images inside the grid */
+.column img {
+  height:12em;
+  opacity: 0.8; 
+  cursor: pointer; 
+  border-radius: .2em;
+  border-style: solid;
+  border-color: #efefef;
+  border-width: 0.2em;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 @media only screen and (max-width:768px) {
