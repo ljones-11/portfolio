@@ -8,15 +8,16 @@ const About = () => {
                 <div className='hero-info'>
                     <NavBar />
                     <h1>About Me</h1>
-                    <h2>From professional rugby to the field of technology!</h2>
+                    <h2 id="blue">From professional rugby to the field of technology!</h2>
                     <div className="text-container">
                         <p>
                             I have spent the last 12 years playing professional rugby. This gave me the opporunity to represent my country 
                             travel the world, and do what I love everyday as a job. I always knew at some point, 
                             this would come to an end and here we are!
                             I am now eager to transition my skills and experience into a career in tech.<br></br><br></br> 
-                            My background in Mechanical Engineering, combined with my current
-                            study of a 16-week Professional Web Development Course with CodeClan has given me experience with a range of full-stack skills.
+                            My background in Mechanical Engineering, combined with
+                            the 16-week Professional Web Development Course with CodeClan I am currently studying
+                            has given me experience with a range of full-stack skills.
                             I love the challenge of finding solutions to
                             problems with a combination of both the logical and creative approaches in coding.
                         </p>
