@@ -62,7 +62,7 @@ const About = () => {
                     <div className='hero-info'>
                     <h2 id="underline">Skills and languages</h2>
                     <div className='text-container'>
-                        <b><p>Python • HTML & CSS • PostgreSQL • Javascript • React • Express.js • MongoDB • Java
+                        <b><p>Python • HTML & CSS • PostgreSQL • Flask • Javascript • React • Express.js • MongoDB • Java
                         • Spring • Git
                         </p></b>
                     </div>
@@ -71,6 +71,7 @@ const About = () => {
                         <i class="devicon-html5-plain-wordmark colored"></i>
                         <i class="devicon-css3-plain-wordmark colored"></i>
                         <i class="devicon-postgresql-plain-wordmark colored"></i>
+                         <i class="devicon-flask-original-wordmark colored"></i>
                         <i class="devicon-javascript-plain colored"></i>
                         <i class="devicon-react-original-wordmark colored"></i>
                         <i class="devicon-express-original-wordmark"></i>
@@ -81,6 +82,7 @@ const About = () => {
                     </div>
                 </div>
             </section>
+            
             <Footer />
             </>
     )
