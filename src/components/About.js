@@ -12,6 +12,7 @@ const About = () => {
                     <NavBar />
                     <h1>About Me</h1>
                     <h2 id="blue">From professional rugby to the field of technology!</h2>
+                    <hr></hr>
                     <div className="text-container">
                         <p>
                             I have spent the last 12 years playing professional rugby. This gave me the opporunity to represent my country 
@@ -51,6 +52,7 @@ const About = () => {
                     </div>
                 <div className='hero-info'>
                     <h2 id="underline">CodeClan</h2>
+                    <hr></hr>
                     <div className='text-container'>
                         <p>CodeClan is 16 week intensive SQA accredited course teaching the fundamentals of software development
                         across a range of languages and frameworks, using Agile methodologies, Test-Driven Development and Object-Oriented Programming to build
@@ -61,6 +63,7 @@ const About = () => {
                     </div>
                     <div className='hero-info'>
                     <h2 id="underline">Skills and languages</h2>
+                    <hr></hr>
                     <div className='text-container'>
                         <b><p>Python • HTML & CSS • PostgreSQL • Flask • Javascript • React • Express.js • MongoDB • Java
                         • Spring • Git
