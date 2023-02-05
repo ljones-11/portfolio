@@ -16,10 +16,10 @@ const About = () => {
                     <hr></hr>
                     <div className="text-container">
                         <p>
-                            I have been fortunate enough to have spent the last 12 years playing professional rugby. This gave me the opportunity to represent my country 
-                            travel the world, and pursue my passion as a career. I always knew at some point, 
-                            this would come to an end and I now look forward to what's next.
-                            I am eager, with my skills and experience to transition into a career in technology.<br></br><br></br> 
+                            I have spent the last 12 years playing professional rugby. This gave me the opportunity to represent my country, 
+                            travel the world, and pursue my passion as a career. I always knew at some point 
+                            this would come to an end, and I now look forward to what's next.
+                            With my skills and experience I am eager to transition into a career in technology.<br></br><br></br> 
                             My background in Mechanical Engineering, combined with
                             the 16-week Professional Web Development Course with CodeClan I am currently studying
                             has helped me to develop a broad range of full-stack skills and I look forward to learning more.
