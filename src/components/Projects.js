@@ -50,7 +50,7 @@ const Projects = () => {
                                 into specific classes. The app was built as a first solo project over 5 days with a limitation on tools 
                                 including no JS or pre-built libraries.<br></br><br></br>
 
-                                <a href="https://github.com/ljones-11/dfgym_manager"><b>Github Link</b></a>
+                                <a href="https://github.com/ljones-11/dfgym_manager"><b>Github Link &nbsp;<i class="fa-solid fa-magnifying-glass"></i></b></a>
                             </p>
                             </div>
                     </div>
@@ -89,11 +89,14 @@ const Projects = () => {
                                 requests. Users are allowed to scroll available pets and submit adoption requests, 
                                 which can the be reviewed and managed by the charity admin. React libraries were 
                                 used in order to improve UI with popup forms and alerts. <br></br><br></br>
-                                <a href="https://github.com/ljones-11/pet-shelter-app"><b>Github Link</b></a>
+                                <a href="https://github.com/ljones-11/pet-shelter-app"><b>Github Link &nbsp;<i class="fa-solid fa-magnifying-glass"></i></b></a>
 
 
                             </p>
                             </div>
+                            <br></br>
+                            <br></br>
+                            <br></br>
                     </div>
                 </section>
                 <Footer />
