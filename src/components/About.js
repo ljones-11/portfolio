@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from './Footer';
 import NavBar from './NavBar';
+import LJ5 from "../LJ5.jpg"
 
 const About = () => {
 
@@ -37,7 +38,7 @@ const About = () => {
                             <img src={require("../LJ3.jpg")}></img>
                         </div>
                         <div class="column">
-                            <img src={require("../LJ5.jpg")}></img>
+                            <img src={LJ5}></img>
                         </div>
                         <div class="column">
                             <img src={require("../LJ2.jpg")}></img>
