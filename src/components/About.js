@@ -27,26 +27,26 @@ const About = () => {
                             problems with a combination of both the logical and creative approaches in coding.
                         </p>
                     </div>              
-                    <div class="row">
-                        <div class="column">
+                    <div className="row">
+                        <div className="column">
                             <img src={require("../LJ1.jpg")}></img>
                         </div>
-                        <div class="column">
+                        <div className="column">
                             <img src={require("../LJ7.jpg")}></img>
                         </div>
-                        <div class="column">
+                        <div className="column">
                             <img src={require("../LJ3.jpg")}></img>
                         </div>
-                        <div class="column">
+                        <div className="column">
                             <img src={require("../LJ5.png")}></img>
                         </div>
-                        <div class="column">
+                        <div className="column">
                             <img src={require("../LJ2.png")}></img>
                         </div>
-                        <div class="column">
+                        <div className="column">
                             <img src={require("../LJ6.png")}></img>
                         </div>
-                        <div class="column">
+                        <div className="column">
                             <img src={require("../LJ4.jpg")}></img>
                         </div>
                         </div>
@@ -71,18 +71,18 @@ const About = () => {
                         </p></b>
                     </div>
                     <div className='icon-container'>
-                        <i class="devicon-python-plain-wordmark colored"></i>
-                        <i class="devicon-html5-plain-wordmark colored"></i>
-                        <i class="devicon-css3-plain-wordmark colored"></i>
-                        <i class="devicon-postgresql-plain-wordmark colored"></i>
-                        <i id="white" class="devicon-flask-original-wordmark"></i>
-                        <i class="devicon-javascript-plain colored"></i>
-                        <i class="devicon-react-original-wordmark colored"></i>
-                        <i class="devicon-express-original-wordmark"></i>
-                        <i class="devicon-mongodb-plain-wordmark colored"></i>
-                        <i class="devicon-java-plain-wordmark colored"></i>
-                        <i class="devicon-spring-plain-wordmark colored"></i>
-                        <i class="devicon-git-plain-wordmark"></i>
+                        <i className="devicon-python-plain-wordmark colored"></i>
+                        <i className="devicon-html5-plain-wordmark colored"></i>
+                        <i className="devicon-css3-plain-wordmark colored"></i>
+                        <i className="devicon-postgresql-plain-wordmark colored"></i>
+                        <i id="white" className="devicon-flask-original-wordmark"></i>
+                        <i className="devicon-javascript-plain colored"></i>
+                        <i className="devicon-react-original-wordmark colored"></i>
+                        <i className="devicon-express-original-wordmark"></i>
+                        <i className="devicon-mongodb-plain-wordmark colored"></i>
+                        <i className="devicon-java-plain-wordmark colored"></i>
+                        <i className="devicon-spring-plain-wordmark colored"></i>
+                        <i className="devicon-git-plain-wordmark"></i>
                     </div>
                 </div>
             </section>

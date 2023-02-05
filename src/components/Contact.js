@@ -14,22 +14,22 @@ const Contact = () => {
                     <div className="contact-container">
 
                             <p className="contact-div">
-                                <i id="med-icon" class="fa-sharp fa-solid fa-paper-plane"></i> <a href="mailto:ljones2806@gmail.com"> &nbsp; E-mail</a>
+                                <i id="med-icon" className="fa-sharp fa-solid fa-paper-plane"></i> <a href="mailto:ljones2806@gmail.com"> &nbsp; E-mail</a>
                             </p>
                             
 
                             <p className="contact-div">
-                                <i  id="med-icon" class="devicon-linkedin-plain colored"></i> <a href="https://www.linkedin.com/in/leejones11"> &nbsp; linkedin.com/in/leejones11</a>
+                                <i  id="med-icon" className="devicon-linkedin-plain colored"></i> <a href="https://www.linkedin.com/in/leejones11"> &nbsp; linkedin.com/in/leejones11</a>
                             </p>
                         
                         
                             <p className="contact-div">
-                                <i  id="med-icon-white" class="devicon-github-original-wordmark colored"></i><a href="https://www.github.com/ljones-11">&nbsp; github.com/ljones-11</a>
+                                <i  id="med-icon-white" className="devicon-github-original-wordmark colored"></i><a href="https://www.github.com/ljones-11">&nbsp; github.com/ljones-11</a>
                             </p>
                         
                         
                             <p className="contact-div">
-                                <i  id="med-icon" class="devicon-twitter-original colored"></i><a href="https://www.twitter.com/leejones11">@leejones11</a>
+                                <i  id="med-icon" className="devicon-twitter-original colored"></i><a href="https://www.twitter.com/leejones11">@leejones11</a>
                             </p>
                        
                     </div>  
