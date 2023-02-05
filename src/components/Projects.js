@@ -26,16 +26,16 @@ const Projects = () => {
 
                             <div className="row project">
                                 <div class="column project">
-                                    <img src={require("../gym_project1.png")}></img>
+                                    <img src={require("../gym_project1.png")} alt="Homepage"></img>
                                 </div>
                                 <div class="column project">
-                                    <img src={require("../gym_project2.png")}></img>
+                                    <img src={require("../gym_project2.png")} alt="Classes list"></img>
                                 </div>
                                 <div class="column project">
-                                    <img src={require("../gym_project3.png")}></img>
+                                    <img src={require("../gym_project3.png")} alt="Member card"></img>
                                 </div>
                                 <div class="column project">
-                                    <img src={require("../gym_project4.png")}></img>
+                                    <img src={require("../gym_project4.png")} alt="Class card"></img>
                                 </div>
                             </div>
                         
@@ -70,16 +70,13 @@ const Projects = () => {
 
                             <div className="row project">
                                 <div class="column project">
-                                    <img src={require("../gym_project1.png")}></img>
+                                    <img src={require("../pet_project1.png")} alt="Admin consol"></img>
                                 </div>
                                 <div class="column project">
-                                    <img src={require("../gym_project2.png")}></img>
+                                    <img src={require("../pet_project2.png")} alt="Dog card"></img>
                                 </div>
                                 <div class="column project">
-                                    <img src={require("../gym_project3.png")}></img>
-                                </div>
-                                <div class="column project">
-                                    <img src={require("../gym_project4.png")}></img>
+                                    <img src={require("../pet_project3.png")} alt="Adopt form"></img>
                                 </div>
                             </div>
                         
