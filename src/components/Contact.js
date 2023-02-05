@@ -1,17 +1,42 @@
 import React from 'react'
+import Footer from './Footer';
 import NavBar from './NavBar';
 
 const Contact = () => {
 
     return (
-        <div className='contact-container'>
-            <NavBar />
-        <span className='icon-span'>
-            <a href="https://github.com/ljones-11"><i class="fa-brands fa-github fa-3x"></i></a>
-            <a href="https://www.linkedin.com/in/lee-jones-6175854a/"><i class="fa-brands fa-linkedin fa-3x"></i></a>
-            <a href="https://twitter.com/leejones11"><i class="fa-brands fa-twitter fa-3x"></i></a>
-        </span>
-    </div>
+        <>
+            <section className='about-container'>
+                <div className='hero-info'>
+                    <NavBar />
+                    <h1>Contact Me</h1>
+                    <hr></hr>
+                    <div className="contact-container">
+
+                            <p className="contact-div">
+                                <i id="med-icon" class="fa-sharp fa-solid fa-paper-plane"></i> <a href="mailto:ljones2806@gmail.com"> &nbsp; E-mail</a>
+                            </p>
+                            
+
+                            <p className="contact-div">
+                                <i  id="med-icon" class="devicon-linkedin-plain colored"></i> <a href="https://www.linkedin.com/in/leejones11"> &nbsp; linkedin.com/in/leejones11</a>
+                            </p>
+                        
+                        
+                            <p className="contact-div">
+                                <i  id="med-icon-white" class="devicon-github-original-wordmark colored"></i><a href="https://www.github.com/ljones-11">&nbsp; github.com/ljones-11</a>
+                            </p>
+                        
+                        
+                            <p className="contact-div">
+                                <i  id="med-icon" class="devicon-twitter-original colored"></i><a href="https://www.twitter.com/leejones11">@leejones11</a>
+                            </p>
+                       
+                    </div>  
+                </div>
+            </section>
+        <Footer />
+    </>
     )
 }
 
