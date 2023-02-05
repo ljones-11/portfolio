@@ -16,7 +16,7 @@ const About = () => {
                     <div className="text-container">
                         <p>
                             I have been fortunate enough to have spent the last 12 years playing professional rugby. This gave me the opportunity to represent my country 
-                            travel the world, and pursue my passion as a career.I always knew at some point, 
+                            travel the world, and pursue my passion as a career. I always knew at some point, 
                             this would come to an end and I now look forward to what's next.
                             I am eager, with my skills and experience to transition into a career in technology.<br></br><br></br> 
                             My background in Mechanical Engineering, combined with
