@@ -181,7 +181,7 @@ h1 {
   /* text-decoration:line-through; */
   color: #1c1c1cc3;
   display: inline-block;
-  margin-top: .5em;
+  margin-top: .8em;
   border-radius: .4em;
   transition: transform 0.2s;
 }
