@@ -41,7 +41,7 @@ const About = () => {
                             <img src={require("../LJ5.png")}></img>
                         </div>
                         <div class="column">
-                            <img src={require("../LJ2.jpg")}></img>
+                            <img src={require("../LJ2.png")}></img>
                         </div>
                         <div class="column">
                             <img src={require("../LJ6.jpg")}></img>
