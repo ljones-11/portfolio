@@ -94,6 +94,54 @@ const Projects = () => {
 
                             </p>
                             </div>
+                        </div>
+                            < div className='hero-info'>
+                                <div className='project-div'>
+                                    <h2 id="blue">Calorie tracking application</h2>
+                                <div className="tools-div">
+                                    <i id="large-icon" class="devicon-java-plain-wordmark colored"></i>
+                                    <i id="large-icon" class="devicon-spring-plain-wordmark colored"></i>
+                                    <i id="large-icon" class="devicon-react-original-wordmark colored"></i>
+                                    <i id="large-icon" class="devicon-bootstrap-plain colored"></i>
+                                </div>
+                            </div>
+
+                            <hr></hr>
+
+                            <div className="row project">
+                                {/* <div class="column project">
+                                    <img src={require("../macros2.png")} alt="Onboarding"></img>
+                                </div> */}
+                                <div class="column project">
+                                    <img src={require("../macros3.png")} alt="Food diary"></img>
+                                </div>
+                                <div class="column project">
+                                    <img src={require("../macros4.png")} alt="Macro charts"></img>
+                                </div>
+                                <div class="column project">
+                                    <img src={require("../macros5.png")} alt="Journal"></img>
+                                </div>
+                                <div class="column project">
+                                    <img src={require("../macros1.png")} alt="Onboarding"></img>
+                                </div>
+                            </div>
+                        
+                        <div className='text-container'>
+                            <p> 
+                                MacrOS is a full-stack calorie tracking application, 
+                                with functionality allowing users set nutrition goals, 
+                                track and view their daily food/calorie/macro intake and 
+                                monitor their progress over time. Users are able to log food items
+                                to daily meals, view current and past macro intake, search for food
+                                items in an existing database and add custom items for future use.
+                                Users are able to track progress towards fitness goals through the 
+                                use of graphs and charts.
+                                <br></br><br></br>
+                                <a href="https://github.com/larrywongkahei/MacrOS"><b>Github Link &nbsp;<i class="fa-solid fa-magnifying-glass"></i></b></a>
+
+
+                            </p>
+                            </div>
                             <br></br>
                             <br></br>
                             <br></br>
